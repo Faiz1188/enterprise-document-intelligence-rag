@@ -26,20 +26,18 @@ Backend: FastAPI, LangChain, FAISS
 
 Frontend: Streamlit
 
-LLM & Observability: OpenAI, LangSmith
+LLM & Observability: Groq, LangSmith
 
 PDF Parsing: PyMuPDF, pdfplumber
 
-📦 Clone the Repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+
 
 ▶️ Run Locally
 1️⃣ Install dependencies
 pip install -r requirements.txt
 
 2️⃣ Set environment variables (.env)
-OPENAI_API_KEY=your_openai_key
+GROQ_API_KEY=your_groq_key
 LANGCHAIN_TRACING_V2=true
 LANGCHAIN_API_KEY=your_langsmith_key
 LANGCHAIN_PROJECT=enterprise-document-rag
@@ -67,7 +65,8 @@ Scales efficiently to large, multi-document corpora
 
 👤 Author
 
-Asiya Irshad
+Faiz Ahmad
 Aspiring GenAI Engineer
 
-🔗 GitHub: [github.com/asiyairshad]
+
+
